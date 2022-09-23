@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Academy: Каталог</title>
+  </head>
+  <body>
+    <header class="page-header" data-test="header">
+      <nav class="navigation">
+        <a class="navigation__logo-link" href="index.html"><img class="navigation__logo" src="" alt="Логотип «Седона»"></a>
+        <ul class="navigation__list">
+          <li class="navigation__item">
+            <a class="navigation__link" href="index.html">Главная</a>
+          </li>
+          <li class="navigation__item">
+            <a class="navigation__link" href="#">О Седоне</a>
+          </li>
+          <li class="navigation__item">
+            <a class="navigation__link  navigation__link--active-tab" href="catalog.html">Гостиницы</a>
+          </li>
+        </ul>
+
+        <ul class="navigation__list navigation__user">
+          <li class="navigation__item">
+            <a class="navigation__link" href="#">
+              <span class="visually-hidden">Поиск</span>
+            </a>
+          </li>
+          <li class="navigation__item">
+            <a class="navigation__link" href="#">
+              <span class="visually-hidden">Избранное</span>
+            </a>
+          </li>
+          <li class="navigation__item">
+            <a class="navigation__link" href="#">Хочю сюда!</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main class="main-inner" data-test="main">
+      <header class="inner-header">
+        <h1 class="inner-header__title">Гостиницы Седоны</h1>
+        <ul class="breadcrumbs">
+          <li class="breadcrumbs__item">
+            <a class="breadcrumbs__link" href="index.html">
+              <img class="breadcrumbs__icon" src="" alt="Главная"></a>
+          </li>
+          <li class="breadcrumbs__item">
+            <a class="breadcrumbs__link" href="catalog.html">Каталог</a>
+          </li>
+        </ul>
+        <form lass="catalog-filter" action="https://echo.htmlacademy.ru/" method="get">
+          <fieldset class="catalog-filter__group">
+            <legend class="catalog-filter__title">Инфраструктура:</legend>
+            <ul class="catalog-filter__list">
+              <li class="catalog-filter__item">
+                <label class="control">
+                  <input class="control-input" type="checkbox" name="swimming-pool" checked>
+              Бассейн
+                </label>
+              </li>
+          <li class="catalog-filter__item">
+            <label class="control">
+              <input class="control-input" type="checkbox" name="parking" checked>
+              Парковка
+            </label>
+          </li>
+          <li class="catalog-filter__item">
+            <label class="control">
+              <input class="control-input" type="checkbox" name="wi-fi">
+              Wi-Fi
+            </label>
+          </li>
+          </ul>
+          </fieldset>
+          <fieldset class="catalog-filter__group">
+            <legend class="catalog-filter__title">Тип жилья:</legend>
+            <ul class="catalog-filter__list">
+              <li class="catalog-filter__item">
+                <label class="control">
+                  <input class="control-input" type="radio" name="product-group" value="hotel" checked>
+              Гостиница
+                </label>
+              </li>
+              <li class="catalog-filter__item">
+                <label class="control">
+                  <input class="control-input" type="radio" name="product-group" value="motel">
+              Мотель
+                </label>
+              </li>
+              <li class="catalog-filter__item">
+                <label class="control">
+                  <input class="control-input" type="radio" name="product-group" value="apartment">
+              Апартаменты
+                </label>
+              </li>
+            </ul>
+          </fieldset>
+          <fieldset class="catalog-filter__group">
+            <legend class="catalog-filter__title">Стоимость, ₽:</legend>
+            <div>
+              <label><input name="input-min" class="control-input" type="number" min="0" max="10000" step="100" value="0"> от</label>
+              <label><input name="input-max" class="control-input" type="number" min="0" max="10000" step="100" value="9000"> до</label>
+              <div class="catalog-filter__slider"></div>
+            </div>
+          </fieldset>
+          <button class="catalog-filter__submit-button" type="submit">Применить</button>
+          <button class="catalog-filter__cancel-button" type="button">Сбросить</button>
+        </form>
+      </header>
+    </main>
+    <footer class="footer" data-test="footer">
+      <section class="footer__social">
+        <h2 class="visually-hidden">Давайте дружить</h2>
+        <ul class="footer__social-list">
+          <li class="footer__social-item">
+            <a href="#" class="footer__button">
+              <span class="visually-hidden">ВКонтакте</span>
+            </a>
+          </li>
+          <li class="footer__social-item">
+            <a href="#" class="footer__button">
+              <span class="visually-hidden">Телеграм</span>
+            </a>
+          </li>
+          <li class="footer__social-item">
+            <a href="#" class="footer__button">
+              <span class="visually-hidden">Youtube</span>
+            </a>
+          </li>
+        </ul>
+      </section>
+      <section class="footer__contacts">
+        <h2 class="visually-hidden">Контактный номер</h2>
+        <p class="footer__hot-number">+7(812) 812-12-12</p>
+      </section>
+      <section class="footer__production">
+        <h2 class="visually-hidden">Сделано в html academy</h2>
+        <img class="footer__logo" src="" alt="html academy">
+      </section>
+    </footer>
+
+</body>
+</html>
