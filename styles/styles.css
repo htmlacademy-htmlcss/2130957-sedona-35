@@ -1,0 +1,23 @@
+.hero {
+  color: #000000;
+  background-color: #fff;
+  background-image: url("../images/background/hero_banner_1200x485.jpg");
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+}
+
+.subscribe {
+  color: #fff;
+  background-color: #E6F0F6;
+  background-image: url("../images/background/subscribe_bg_1200x415.jpg");
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+}
+
+.inner-header {
+  color: #fff;
+  background-color: #E6F0F6;
+  background-image: url("../images/background/catalog_banner_1200x412.jpg");
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+}
