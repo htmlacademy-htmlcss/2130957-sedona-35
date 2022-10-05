@@ -281,6 +281,11 @@ body{
   background-color: #7DB54F;
 }
 
+.product-card-button__rating{
+  color: inherit;
+  background: #fff;
+}
+
 .pagination__link{
   color: #fff;
   width: 60px;
