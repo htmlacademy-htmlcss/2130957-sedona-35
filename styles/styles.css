@@ -282,8 +282,9 @@ body{
 }
 
 .product-card-button__rating{
-  color: inherit;
+  color: #333;
   background: #fff;
+  font-weight: 400;
 }
 
 .pagination__link{
