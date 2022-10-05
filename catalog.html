@@ -44,7 +44,7 @@
           </a>
         </li>
         <li class="navigation__item">
-          <a class="navigation__link" href="#">Хочю сюда!</a>
+          <a class="navigation__button" href="#">Хочю сюда!</a>
         </li>
       </ul>
     </nav>
@@ -101,9 +101,9 @@
 				<fieldset class="catalog-filter__group">
 					<legend class="catalog-filter__title">Стоимость, ₽:</legend>
 					<label class="catalog-filter__cost">
-						<input name="input-min" class="control-input" type="number" min="0" max="10000" step="100" value="0"> от</label>
+						<input name="input-min" class="price-input" type="number" min="0" max="10000" step="100" value="0"> от</label>
 					<label class="catalog-filter__cost">
-						<input name="input-max" class="control-input" type="number" min="0" max="10000" step="100" value="9000"> до</label>
+						<input name="input-max" class="price-input" type="number" min="0" max="10000" step="100" value="9000"> до</label>
 					<div class="catalog-filter__slider"></div>
 				</fieldset>
 				<button class="catalog-filter__submit-button" type="submit">Применить</button>
@@ -152,7 +152,7 @@
 						<h3 class="product-card__title">Villas at Poco Diablo</h3> </a>
 					<div class="product-card__description"> <span class="product-card__type">Гостиница</span> <span class="product-card__price">От 5000 ₽</span> </div>
 					<div class="product-card__button-container"> <a class="product-card__button product-card__button--primary" href="#">Подробнее</a>
-						<button class="product-card__button product-card__button--favorite" type="button">В избранном</button>
+						<button class="product-card__button product-card__button--secondary-favorite" type="button">В избранном</button>
 					</div>
 					<div class="product-card__rating-container">
 						<div class="product-card__stars"></div>
@@ -164,7 +164,7 @@
 						<h3 class="product-card__title">Desert Quail Inn</h3> </a>
 					<div class="product-card__description"> <span class="product-card__type">Гостиница</span> <span class="product-card__price">От 2500 ₽</span> </div>
 					<div class="product-card__button-container"> <a class="product-card__button product-card__button--primary" href="#">Подробнее</a>
-						<button class="product-card__button product-card__button--favorite" type="button">В избранном</button>
+						<button class="product-card__button product-card__button--secondary" type="button">В избранное</button>
 					</div>
 					<div class="product-card__rating-container">
 						<div class="product-card__stars"></div>
@@ -176,7 +176,7 @@
 						<h3 class="product-card__title">GreenTree</h3> </a>
 					<div class="product-card__description"> <span class="product-card__type">Гостиница</span> <span class="product-card__price">От 1500 ₽</span> </div>
 					<div class="product-card__button-container"> <a class="product-card__button product-card__button--primary" href="#">Подробнее</a>
-						<button class="product-card__button product-card__button--favorite" type="button">В избранном</button>
+						<button class="product-card__button product-card__button--secondary" type="button">В избранное</button>
 					</div>
 					<div class="product-card__rating-container">
 						<div class="product-card__stars"></div>
@@ -185,27 +185,20 @@
 				</li>
 			</ol>
 			<ul class="pagination">
-				<li class="pagination__item">
-					<a class="pagination__link pagination__prev pagination__disabled"> <span class="visually-hidden">Предыдущая страница</span> </a>
-				</li>
 				<li class="pagination__item"> <a class="pagination__link pagination__link--current">1</a> </li>
 				<li class="pagination__item"> <a class="pagination__link" href="#">2</a> </li>
 				<li class="pagination__item"> <a class="pagination__link" href="#">3</a> </li>
 				<li class="pagination__item"> <a class="pagination__link" href="#">4</a> </li>
 				<li class="pagination__item"> <a class="pagination__link" href="#">...</a> </li>
         <li class="pagination__item"> <a class="pagination__link" href="#">10</a> </li>
-				<li class="pagination__item">
-					<a class="pagination__link pagination__next" href="#"> <span class="visually-hidden">Следующая страница</span> </a>
-				</li>
 			</ul>
 		</section>
 		<section class="inner-subscribe" data-test="subscribe">
-			<h2 class="subscribe__title">Подпишитесь на рассылку</h2>
-			<p class="subscribe__text">Только полезная информация и никакого спама, честное бойскаутское!</p>
-			<form class="subscribe__form" action="https://echo.htmlacademy.ru/" method="post">
-				<input type="email" name="email" placeholder="Ваш e-mail">
-				<button class="subscribe__button" type="submit">Подписаться</button>
-			</form>
+      <h2 class="subscribe__title">Подпишитесь на рассылку</h2>
+      <p class="subscribe__text">Только полезная информация и никакого спама, честное бойскаутское!</p>
+      <form class="subscribe__form" action="https://echo.htmlacademy.ru/" method="post">
+        <span class="subscribe__label"><input type="email" name="email" placeholder="Ваш e-mail"></span><button class="subscribe__button" type="submit">Подписаться</button>
+      </form>
 		</section>
 	</main>
   <footer class="footer" data-test="footer">

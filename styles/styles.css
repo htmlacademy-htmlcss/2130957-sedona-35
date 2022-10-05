@@ -18,7 +18,285 @@ body{
   font-family: "PT Sans", sans-serif;
   font-size: 18px;
   line-height: 21px;
+  color: #000;
+  background-color: #fff;
+}
+
+.visually-hidden{
+  display: none;
+}
+
+.navigation__link{
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 700;
+  text-decoration: none;
+  color: #000;
+}
+
+.navigation__button{
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-align: center;
+  color: white;
+  text-decoration: none;
+  padding: 8px 34px;
+  background-color: #756157;
+  border-radius: 4px;
+  display: inline-block;
+}
+
+.search-hotels__button{
+  font-size: 20px;
+  line-height: 36px;;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-align: center;
+  color: white;
+  text-decoration: none;
+  padding: 8px 50px;
+  background-color: #756157;
+  border-radius: 4px;
+  display: inline-block;
+}
+
+#popup-submit-button{
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-align: center;
+  color: white;
+  padding: 18px 50px;
+  background-color: #83B3D3;
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+  display: inline-block;
+}
+
+.catalog-filter__submit-button{
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: white;
+  padding: 8px 50px;
+  background-color: #83B3D3;
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+  text-align: center;
+  display: inline-block;
+}
+
+.catalog-filter__reset-button{
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: white;
+  padding: 8px 50px;
+  background-color: transparent;
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+  text-align: center;
+  display: inline-block;
+}
+
+.intro_title, .search-hotels__title, .search-hotels__popup-title, .count-hotels{
+  font-size: 30px;
+  line-height: 36px;
+  font-weight: 700;
+}
+
+.intro__subtitle, .search-hotels__description{
+  font-size: 22px;
+  line-height: 26px;
+  color: #333;
+}
+
+.subscribe__title{
+  font-size: 30px;
+  line-height: 36px;
+  font-weight: 700;
+  color: #fff;
+}
+
+.subscribe__text{
+  font-size: 22px;
+  line-height: 26px;
+  color: #fff;
+}
+
+.inner-subscribe .subscribe__title{
+  color: #000;
+}
+
+.inner-subscribe .subscribe__text{
+  color: #333;
+}
+
+.inner-subscribe .subscribe__label{
+  background-color: #F2F2F2;
+}
+
+.inner-subscribe .subscribe__label input{
+  background-color: inherit;
+}
+
+.advantages__title, .conditions__title{
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+}
+
+.advantages__text, .conditions__text{
+  color: #333;
+}
+
+.advantages__item--light .advantages__title, .advantages__item--light .advantages__text{
+  color: #fff;
+}
+
+.popup-form label{
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 700;
+}
+
+.popup-form input{
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.popup-error{
+  font-size: 16px;
+  line-height: 21px;
+  color: #FF5757;
+}
+
+.popup-allow{
+  font-size: 16px;
+  line-height: 21px;
   color: #333333;
+}
+
+.tooltip-hidden-text{
+  font-size: 16px;
+  line-height: 20px;
+  color: #fff;
+  background-color: #333333;
+}
+
+.inner-header__title{
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 78px;
+}
+
+.breadcrumbs__link{
+  color: inherit;
+  text-decoration: none;
+  font-size:16px;
+  line-height: 21px;
+}
+
+.catalog-filter__title{
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.catalog-filter__item input{
+  font-size: 18px;
+  line-height: 23px;
+}
+
+.price-input{
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 24px;
+  color: #000;
+}
+
+.catalog-filter__cost{
+  width: 17px;
+  height: 24px;
+  color: #333;
+  padding: 12px;
+  background: #fff;
+}
+
+.select-control{
+  font-weight: inherit;
+  font-size: inherit;
+  line-height: inherit;
+  color: #333;
+}
+
+.product-card__link{
+  text-decoration: none;
+  color: inherit;
+}
+
+.product-card__title{
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+}
+
+.product-card__type, .product-card__price, .product-card__rating{
+  color: #333333;
+}
+
+.product-card__button{
+  padding: 8px 12px;
+  text-align: center;
+  border-radius: 4px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  cursor: pointer;
+  border: none;
+  text-decoration: none;
+  color: #fff;
+  width: 140px;
+  display: inline-block;
+}
+
+.product-card__button--primary{
+  background-color: #756157;
+}
+
+.product-card__button--secondary{
+  background-color: #82B3D3;
+}
+
+.product-card__button--secondary-favorite{
+  background-color: #7DB54F;
+}
+
+.pagination__link{
+  color: #fff;
+  width: 60px;
+  display: inline-block;
+  border-radius: 4px;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 20px;
+  background-color: #82B3D3;
+  text-align: center;
+  padding: 20px 0;
+}
+
+.pagination__link--current{
+  color: #000;
   background-color: #fff;
 }
 
@@ -31,11 +309,46 @@ body{
 }
 
 .subscribe {
-  color: #fff;
   background-color: #E6F0F6;
   background-image: url("../images/background/subscribe_bg_1200x415.jpg");
   background-size: cover;
   background-position: center center;
+}
+
+.subscribe__button{
+  font-size: 20px;
+  line-height: 36px;
+  font-weight: 700;
+  color: #fff;
+  padding:  8px 50px;
+  background-color: #82B3D3;
+  border: none;
+  cursor: pointer;
+  border-bottom-right-radius: 4px;
+  border-top-right-radius: 4px;
+  display: inline-block;
+}
+
+.subscribe__label{
+  border-bottom-left-radius: 4px;
+  border-top-left-radius: 4px;
+  display: inline-block;
+  padding: 12px 20px 10px 20px;
+  background: #fff;
+}
+
+.subscribe__label input{
+  font-size: 18px;
+  line-height: 24px;
+  color: #333;
+  width: 452px;
+}
+
+.footer__hot-number a{
+  font-size: 40px;
+  line-height: 40px;
+  text-decoration: none;
+  color: inherit;
 }
 
 .inner-header {
@@ -86,5 +399,4 @@ body{
 
 .advantages__item:last-child, .advantages__item:first-child {
   background-color: #82B3D3;
-  color: #fff;
 }
