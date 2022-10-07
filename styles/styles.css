@@ -14,7 +14,7 @@
   font-display: swap;
 }
 
-body{
+body {
   font-family: "PT Sans", sans-serif;
   font-size: 18px;
   line-height: 21px;
@@ -22,11 +22,11 @@ body{
   background-color: #fff;
 }
 
-.visually-hidden{
+.visually-hidden {
   display: none;
 }
 
-.navigation__link{
+.navigation__link {
   font-size: 20px;
   line-height: 24px;
   font-weight: 700;
@@ -34,7 +34,7 @@ body{
   color: #000;
 }
 
-.navigation__button{
+.navigation__button {
   font-size: 16px;
   line-height: 20px;
   font-weight: 700;
@@ -48,7 +48,7 @@ body{
   display: inline-block;
 }
 
-.search-hotels__button{
+.search-hotels__button {
   font-size: 20px;
   line-height: 36px;;
   font-weight: 700;
@@ -62,7 +62,7 @@ body{
   display: inline-block;
 }
 
-#popup-submit-button{
+#popup-submit-button {
   font-size: 20px;
   line-height: 24px;
   font-weight: 700;
@@ -77,7 +77,7 @@ body{
   display: inline-block;
 }
 
-.catalog-filter__submit-button{
+.catalog-filter__submit-button {
   font-size: 16px;
   line-height: 20px;
   font-weight: 700;
@@ -92,7 +92,7 @@ body{
   display: inline-block;
 }
 
-.catalog-filter__reset-button{
+.catalog-filter__reset-button {
   font-size: 16px;
   line-height: 20px;
   font-weight: 700;
@@ -107,124 +107,124 @@ body{
   display: inline-block;
 }
 
-.intro_title, .search-hotels__title, .search-hotels__popup-title, .count-hotels{
+.intro_title, .search-hotels__title, .search-hotels__popup-title, .count-hotels {
   font-size: 30px;
   line-height: 36px;
   font-weight: 700;
 }
 
-.intro__subtitle, .search-hotels__description{
+.intro__subtitle, .search-hotels__description {
   font-size: 22px;
   line-height: 26px;
   color: #333;
 }
 
-.subscribe__title{
+.subscribe__title {
   font-size: 30px;
   line-height: 36px;
   font-weight: 700;
   color: #fff;
 }
 
-.subscribe__text{
+.subscribe__text {
   font-size: 22px;
   line-height: 26px;
   color: #fff;
 }
 
-.inner-subscribe .subscribe__title{
+.inner-subscribe .subscribe__title {
   color: #000;
 }
 
-.inner-subscribe .subscribe__text{
+.inner-subscribe .subscribe__text {
   color: #333;
 }
 
-.inner-subscribe .subscribe__label{
+.inner-subscribe .subscribe__label {
   background-color: #F2F2F2;
 }
 
-.inner-subscribe .subscribe__label input{
+.inner-subscribe .subscribe__label input {
   background-color: inherit;
 }
 
-.advantages__title, .conditions__title{
+.advantages__title, .conditions__title {
   font-weight: 700;
   font-size: 24px;
   line-height: 28px;
 }
 
-.advantages__text, .conditions__text{
+.advantages__text, .conditions__text {
   color: #333;
 }
 
-.advantages__item--light .advantages__title, .advantages__item--light .advantages__text{
+.advantages__item--light .advantages__title, .advantages__item--light .advantages__text {
   color: #fff;
 }
 
-.popup-form label{
+.popup-form label {
   font-size: 20px;
   line-height: 24px;
   font-weight: 700;
 }
 
-.popup-form input{
+.popup-form input {
   font-weight: 700;
   font-size: 18px;
   line-height: 24px;
 }
 
-.popup-error{
+.popup-error {
   font-size: 16px;
   line-height: 21px;
   color: #FF5757;
 }
 
-.popup-allow{
+.popup-allow {
   font-size: 16px;
   line-height: 21px;
   color: #333333;
 }
 
-.tooltip-hidden-text{
+.tooltip-hidden-text {
   font-size: 16px;
   line-height: 20px;
   color: #fff;
   background-color: #333333;
 }
 
-.inner-header__title{
+.inner-header__title {
   font-weight: 700;
   font-size: 60px;
   line-height: 78px;
 }
 
-.breadcrumbs__link{
+.breadcrumbs__link {
   color: inherit;
   text-decoration: none;
   font-size:16px;
   line-height: 21px;
 }
 
-.catalog-filter__title{
+.catalog-filter__title {
   font-weight: 700;
   font-size: 20px;
   line-height: 24px;
 }
 
-.catalog-filter__item input{
+.catalog-filter__item input {
   font-size: 18px;
   line-height: 23px;
 }
 
-.price-input{
+.price-input {
   font-weight: 700;
   font-size: 18px;
   line-height: 24px;
   color: #000;
 }
 
-.catalog-filter__cost{
+.catalog-filter__cost {
   width: 17px;
   height: 24px;
   color: #333;
@@ -232,29 +232,29 @@ body{
   background: #fff;
 }
 
-.select-control{
+.select-control {
   font-weight: inherit;
   font-size: inherit;
   line-height: inherit;
   color: #333;
 }
 
-.product-card__link{
+.product-card__link {
   text-decoration: none;
   color: inherit;
 }
 
-.product-card__title{
+.product-card__title {
   font-weight: 700;
   font-size: 24px;
   line-height: 28px;
 }
 
-.product-card__type, .product-card__price, .product-card__rating{
+.product-card__type, .product-card__price, .product-card__rating {
   color: #333333;
 }
 
-.product-card__button{
+.product-card__button {
   padding: 8px 8px;
   text-align: center;
   border-radius: 4px;
@@ -270,25 +270,25 @@ body{
   text-transform: uppercase;
 }
 
-.product-card__button--primary{
+.product-card__button--primary {
   background-color: #756157;
 }
 
-.product-card__button--secondary{
+.product-card__button--secondary {
   background-color: #82B3D3;
 }
 
-.product-card__button--secondary-favorite{
+.product-card__button--secondary-favorite {
   background-color: #7DB54F;
 }
 
-.product-card-button__rating{
+.product-card-button__rating {
   color: #333;
   background: #fff;
   font-weight: 400;
 }
 
-.pagination__link{
+.pagination__link {
   color: #fff;
   width: 60px;
   display: inline-block;
@@ -302,12 +302,12 @@ body{
   padding: 20px 0;
 }
 
-.pagination__link--current{
+.pagination__link--current {
   color: #000;
   background-color: #fff;
 }
 
-.subscribe__button{
+.subscribe__button {
   font-size: 20px;
   line-height: 36px;
   font-weight: 700;
@@ -321,7 +321,7 @@ body{
   display: inline-block;
 }
 
-.subscribe__label{
+.subscribe__label {
   border-bottom-left-radius: 4px;
   border-top-left-radius: 4px;
   display: inline-block;
@@ -329,14 +329,14 @@ body{
   background: #fff;
 }
 
-.subscribe__label input{
+.subscribe__label input {
   font-size: 18px;
   line-height: 24px;
   color: #333;
   width: 452px;
 }
 
-.footer__hot-number a{
+.footer__hot-number a {
   font-size: 40px;
   line-height: 40px;
   text-decoration: none;
@@ -393,15 +393,15 @@ body{
   background-color: rgba(131, 179, 211, 0.12);
 }
 
-.catalog-products{
+.catalog-products {
   background-color: #E6F0F6;
 }
 
-.advantages__item:nth-child(odd){
+.advantages__item:nth-child(odd) {
   background-color: rgba(131, 179, 211, 0.12);
 }
 
-.advantages__item:nth-child(even){
+.advantages__item:nth-child(even) {
   background-color: rgba(131, 179, 211, 0.2);
 }
 
@@ -410,7 +410,7 @@ body{
   color: #fff;
 }
 
-.breadcrumbs__item:not(:last-child):after{
+.breadcrumbs__item:not(:last-child):after {
   content: '';
   background-image: url("../images/icons/icon_arrow.svg");
   display: inline-block;
