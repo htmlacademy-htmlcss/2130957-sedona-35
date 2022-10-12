@@ -27,6 +27,24 @@ body {
   margin: 0;
 }
 
+h1 {
+  margin: 0;
+  margin-bottom: 25px;
+}
+
+h2 {
+  margin: 0;
+  margin-bottom: 20px;
+}
+
+h3 {
+  margin: 0;
+}
+
+p {
+  margin: 0;
+}
+
 .wrapper {
   margin: 0 auto;
   min-width: 375px;
