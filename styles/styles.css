@@ -220,6 +220,7 @@ p {
   font-weight: 700;
   font-size: 24px;
   line-height: 28px;
+  text-transform: uppercase;
 }
 
 .advantages__text, .conditions__text {
@@ -529,6 +530,7 @@ p {
 
 .advantages__item {
   width: 33.333333%;
+  text-align: center;
 }
 
 .advantages__item--large {
@@ -542,6 +544,7 @@ p {
 
 .conditions__item {
   width: 33.333333%;
+  text-align: center;
 }
 
 .search-hotels {
