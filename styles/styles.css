@@ -442,6 +442,8 @@ body {
   background-size: cover;
   background-position: center center;
   color: #fff;
+  text-align: center;
+  padding: 96px 0 104px 0;
 }
 
 .inner-header {
@@ -480,6 +482,7 @@ body {
 
 .catalog-products {
   background-color: #E6F0F6;
+  padding: 50px 70px;
 }
 
 .advantages__item:nth-child(odd) {
@@ -525,10 +528,7 @@ body {
 
 .search-hotels {
   text-align: center;
-}
-
-.subscribe {
-  text-align: center;
+  padding: 96px 0;
 }
 
 .footer {
@@ -543,10 +543,6 @@ body {
 
 .catalog-filter {
   display: flex;
-}
-
-.catalog-products {
-  padding: 0 70px;
 }
 
 .catalog-products__filter {
@@ -583,6 +579,7 @@ body {
 
 .inner-subscribe {
   text-align: center;
+  padding: 96px 0 104px 0;
 }
 
 .search-hotels__popup-form {
