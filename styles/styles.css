@@ -650,7 +650,8 @@ p {
 }
 
 .footer__social-item {
-  width: 47px;
+  min-width: 47px;
+  min-height: 20px;
   text-align: center;
 }
 
