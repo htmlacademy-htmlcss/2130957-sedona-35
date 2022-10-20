@@ -612,7 +612,6 @@ p {
 .advantages__item--large {
   width: 100%;
   display: flex;
-  max-height: 384px;
 }
 
 .conditions__list {
