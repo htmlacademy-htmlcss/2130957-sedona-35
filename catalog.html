@@ -16,13 +16,19 @@
         </a>
         <ul class="navigation__list">
           <li class="navigation__item">
-            <a class="navigation__link" href="index.html">Главная</a>
+            <a class="navigation__link" href="index.html">
+              <span class="navigation__label">Главная</span>
+            </a>
           </li>
           <li class="navigation__item">
-            <a class="navigation__link" href="#">О Седоне</a>
+            <a class="navigation__link" href="#">
+              <span class="navigation__label">О Седоне</span>
+            </a>
           </li>
           <li class="navigation__item">
-            <a class="navigation__link navigation__link--active-tab" href="catalog.html">Гостиницы</a>
+            <a class="navigation__link  navigation__link--active-tab" href="catalog.html">
+              <span class="navigation__label">Гостиницы</span>
+            </a>
           </li>
         </ul>
 
@@ -123,18 +129,20 @@
             <option value="cheap">Сначала популярное</option>
             <option value="expensive">Сначала дорогое</option>
           </select>
-          <a href="#" class="catalog-products__button">
+          <div class="catalog-products__button-container">
+            <a href="#" class="catalog-products__button catalog-products__button--active">
             <span class="visually-hidden">Показать обычные карточки</span>
             <svg width="16" height="14" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 0H0v6h4V0ZM16 0h-4v6h4V0ZM10 0H6v6h4V0ZM4 8H0v6h4V8ZM16 8h-4v6h4V8ZM10 8H6v6h4V8Z" fill="#000"/></svg>
-          </a>
-          <a href="#" class="catalog-products__button">
-            <span class="visually-hidden">Показать крупные карточки</span>
-            <svg width="16" height="14" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M16 12H0v2h16v-2ZM14 2v6H2V2h12Zm2-2H0v10h16V0Z" fill="#000"/></svg>
-          </a>
-          <a href="#" class="catalog-products__button">
-            <span class="visually-hidden">Показать список</span>
-            <svg width="16" height="14" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M2 0H0v2h2V0ZM16 0H4v2h12V0ZM2 4H0v2h2V4ZM16 4H4v2h12V4ZM2 8H0v2h2V8ZM16 8H4v2h12V8ZM2 12H0v2h2v-2ZM16 12H4v2h12v-2Z" fill="#000"/></svg>
-          </a>
+            </a>
+            <a href="#" class="catalog-products__button">
+              <span class="visually-hidden">Показать крупные карточки</span>
+              <svg width="16" height="14" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M16 12H0v2h16v-2ZM14 2v6H2V2h12Zm2-2H0v10h16V0Z" fill="#000"/></svg>
+            </a>
+            <a href="#" class="catalog-products__button">
+              <span class="visually-hidden">Показать список</span>
+              <svg width="16" height="14" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M2 0H0v2h2V0ZM16 0H4v2h12V0ZM2 4H0v2h2V4ZM16 4H4v2h12V4ZM2 8H0v2h2V8ZM16 8H4v2h12V8ZM2 12H0v2h2v-2ZM16 12H4v2h12v-2Z" fill="#000"/></svg>
+            </a>
+          </div>
         </div>
         <ol class="product-list">
           <li class="product-card">
