@@ -686,9 +686,8 @@ p {
 .product-card {
   border: 1px solid #E6E6E6;
   border-radius: 4px;
-  padding: 20px;
+  padding: 19px;
   box-sizing: border-box;
-  max-width: 340px;
 }
 
 .product-card__image {
