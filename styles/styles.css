@@ -275,7 +275,7 @@ p {
   width: 0;
 }
 
-.advantages__item--light .advantages__title::after {
+.advantages__item--dark .advantages__title::after {
   background:  rgba(255, 255, 255, 0.3);
 }
 
@@ -283,15 +283,15 @@ p {
   color: #333;
 }
 
-.advantages__item--light {
+.advantages__item--dark {
   background-color: #82B3D3!important;
 }
 
-.advantages__item--light .advantages__title, .advantages__item--light .advantages__text {
+.advantages__item--dark .advantages__title, .advantages__item--dark .advantages__text {
   color: #fff;
 }
 
-.advantages__item--dark {
+.advantages__item--light {
   background-color: #fff!important;
 }
 
