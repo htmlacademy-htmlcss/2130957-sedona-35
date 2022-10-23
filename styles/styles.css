@@ -208,6 +208,10 @@ p {
   text-transform: uppercase;
 }
 
+.search-hotels__popup-title {
+  margin-bottom: 64px;
+}
+
 .intro__subtitle, .search-hotels__description {
   font-size: 22px;
   line-height: 26px;
@@ -286,6 +290,54 @@ p {
   color: #fff;
 }
 
+.popup__input-number-container {
+  display: grid;
+  grid-template-columns: 137px 1fr;
+  row-gap: 4px;
+  margin-bottom: 23px;
+  align-items: center;
+}
+
+.popup-allow, .popup-error {
+  grid-column: 2/2;
+}
+
+.popup__input-number {
+  padding: 12px 20px;
+  background: #F2F2F2;
+  border-radius: 4px;
+  border-style: none;
+  outline-offset: 0;
+  outline: none;
+}
+
+.popup__input-amount-container {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 48px;
+}
+
+.popup__amount-row {
+  display: flex;
+  align-items: center;
+}
+
+.popup__amount-row input {
+  width: 110px;
+  padding: 14px 10px;
+  background: #F2F2F2;
+  border-radius: 4px;
+  border-style: none;
+  outline-offset: 0;
+  outline: none;
+  box-sizing: border-box;
+}
+
+.popup__amount-row label {
+  margin-right: 46px;
+}
+
+
 .popup-form label {
   font-size: 20px;
   line-height: 24px;
@@ -313,6 +365,7 @@ p {
 
 .tooltip-img {
   cursor: pointer;
+  vertical-align: bottom;
 }
 
 .tooltip-hidden-text {
@@ -753,6 +806,9 @@ p {
   text-align: left;
   padding: 64px 70px;
   position: relative;
+  border-radius: 30px;
+  background-color: #fff;
+  box-sizing: border-box;
 }
 
 .close-button {
@@ -913,5 +969,23 @@ p {
   outline-offset: 0;
   outline: none;
   border: 2px solid #82B3D3;
-
 }
+
+.close-icon {
+  fill: #F2F2F2;
+  transition: all .2s ease-in-out;
+}
+
+.close-icon:hover {
+  fill: #e6e6e6;
+}
+
+.close-icon path {
+  fill: #000;
+  transition: all .2s ease-in-out;
+}
+
+.close-icon:active path {
+  fill: #a1a1a1;
+}
+
