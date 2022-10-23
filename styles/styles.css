@@ -343,6 +343,7 @@ p {
   text-decoration: none;
   font-size:16px;
   line-height: 21px;
+  transition: all .2s ease-in-out;
 }
 
 .catalog-filter__title {
@@ -836,7 +837,7 @@ p {
   outline: none;
 }
 
-.button--tertiary:hover {
+.button--tertiary:hover, .breadcrumbs__link:hover {
   opacity: 0.6;
 }
 
