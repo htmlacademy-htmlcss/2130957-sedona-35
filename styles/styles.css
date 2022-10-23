@@ -960,6 +960,10 @@ p {
   outline: none;
 }
 
+.footer__logo:active {
+  fill: rgba(117, 97, 87, 0.3);
+}
+
 .catalog-products__button:hover, .catalog-products__button:active {
   border: 2px solid #000000;
 }
