@@ -463,6 +463,24 @@ p {
   cursor: pointer;
 }
 
+.select-control:hover {
+  border: 2px solid #83B3D3;
+}
+
+.select-control:focus {
+  border: 2px solid #83B3D3;
+  outline: none;
+}
+
+.select-control:active {
+  border: 2px solid #3f5e72;
+}
+
+..select-control:disabled {
+  border: 2px solid rgba(0, 0, 0, 0.3);
+  color: rgba(0, 0, 0, 0.3);
+}
+
 .product-card__link {
   text-decoration: none;
   color: inherit;
@@ -892,12 +910,22 @@ p {
  fill: #756157;
 }
 
+.navigation__link:active {
+  border-bottom: 2px solid rgba(117, 97, 87, 0.3);
+  color: rgba(117, 97, 87, 0.3);
+}
+
+.navigation__link:active .navigation__icon {
+  fill: rgba(117, 97, 87, 0.3);
+}
+
 .button--primary:hover {
   background-color: #615048;
 }
 
 .button--primary:focus {
   background-color: #615048;
+  outline: none;
 }
 
 .button--primary:active {
@@ -921,6 +949,7 @@ p {
 
 .button--secondary:focus, .pagination__link:focus {
   background-color: #68A2CA;
+  outline: none;
 }
 
 .button--tertiary:hover, .breadcrumbs__link:hover {
@@ -929,6 +958,7 @@ p {
 
 .button--tertiary:focus {
   border: 3px solid #68A2CA;
+  outline: none;
 }
 
 .button--tertiary:active {
@@ -966,12 +996,17 @@ p {
   fill: #68A2CA;
 }
 
+.footer__button:focus {
+  outline: none;
+}
+
 .footer__button:focus .footer__social-icon {
   fill: #68A2CA;
 }
 
 .footer__hotline:hover, .footer__hotline:focus {
   color: #756157;
+  outline: none;
 }
 
 .footer__hotline:active {
@@ -985,6 +1020,10 @@ p {
 
 .footer__logo-link:hover .footer__logo {
   fill: #756157;
+}
+
+.footer__logo-link:focus {
+  outline: none;
 }
 
 .footer__logo-link:focus .footer__logo {
@@ -1001,6 +1040,7 @@ p {
 
 .catalog-products__button:focus {
   border: 2px solid #82B3D3;
+  outline: none;
 }
 
 .close-icon {
@@ -1020,4 +1060,5 @@ p {
 .close-icon:active path {
   fill: #a1a1a1;
 }
+
 
