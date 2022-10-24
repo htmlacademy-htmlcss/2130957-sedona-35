@@ -898,8 +898,6 @@ p {
 
 .button--primary:focus {
   background-color: #615048;
-  outline-offset: 0;
-  outline: none;
 }
 
 .button--primary:active {
@@ -923,8 +921,6 @@ p {
 
 .button--secondary:focus, .pagination__link:focus {
   background-color: #68A2CA;
-  outline-offset: 0;
-  outline: none;
 }
 
 .button--tertiary:hover, .breadcrumbs__link:hover {
@@ -933,8 +929,6 @@ p {
 
 .button--tertiary:focus {
   border: 3px solid #68A2CA;
-  outline-offset: 0;
-  outline: none;
 }
 
 .button--tertiary:active {
@@ -956,8 +950,6 @@ p {
 
 .product-card__button--secondary-favorite:focus {
   background-color: #6C9E42;
-  outline-offset: 0;
-  outline: none;
 }
 
 .pagination__link--current:hover, .pagination__link--current:active, .pagination__link--current:focus {
@@ -974,19 +966,12 @@ p {
   fill: #68A2CA;
 }
 
-.footer__button:focus {
-  outline-offset: 0;
-  outline: none;
-}
-
 .footer__button:focus .footer__social-icon {
   fill: #68A2CA;
 }
 
 .footer__hotline:hover, .footer__hotline:focus {
   color: #756157;
-  outline-offset: 0;
-  outline: none;
 }
 
 .footer__hotline:active {
@@ -1004,8 +989,6 @@ p {
 
 .footer__logo-link:focus .footer__logo {
   fill: #756157;
-  outline-offset: 0;
-  outline: none;
 }
 
 .footer__logo-link:active .footer__logo {
@@ -1017,8 +1000,6 @@ p {
 }
 
 .catalog-products__button:focus {
-  outline-offset: 0;
-  outline: none;
   border: 2px solid #82B3D3;
 }
 
