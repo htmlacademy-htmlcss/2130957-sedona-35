@@ -998,17 +998,17 @@ p {
   transition: all .2s ease-in-out;
 }
 
-.footer__logo:hover {
+.footer__logo-link:hover .footer__logo {
   fill: #756157;
 }
 
-.footer__logo:focus {
+.footer__logo-link:focus .footer__logo {
   fill: #756157;
   outline-offset: 0;
   outline: none;
 }
 
-.footer__logo:active {
+.footer__logo-link:active .footer__logo {
   fill: rgba(117, 97, 87, 0.3);
 }
 
