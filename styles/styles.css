@@ -97,7 +97,7 @@ a:focus-visible {
 }
 
 .navigation__user .navigation__link {
-  padding: 19px;
+  padding: 19px 0;
   min-width: 20px;
   min-height: 20px;
 }
