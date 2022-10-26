@@ -35,7 +35,6 @@ body {
 
 h1 {
   margin: 0;
-  margin-bottom: 25px;
 }
 
 h2 {
@@ -229,14 +228,18 @@ a:focus-visible {
   width: 191px;
 }
 
-.intro_title, .search-hotels__title, .search-hotels__popup-title, .count-hotels {
+.intro_title, .search-hotels__title, .popup__title, .count-hotels {
   font-size: 30px;
   line-height: 36px;
   font-weight: 700;
   text-transform: uppercase;
 }
 
-.search-hotels__popup-title {
+.intro_title {
+  margin-bottom: 25px;
+}
+
+.popup__title {
   margin-bottom: 64px;
 }
 
@@ -664,7 +667,7 @@ a:focus-visible {
 
 .intro {
   text-align: center;
-  padding: 69px 0 90px 0;
+  padding: 69px 270px 90px 270px;
   background-color: #fff;
 
 }
@@ -680,7 +683,7 @@ a:focus-visible {
   background-position: center center;
   color: #fff;
   text-align: center;
-  padding: 96px 0 104px 0;
+  padding: 96px 258px 104px 258px;
 }
 
 .inner-header {
@@ -769,7 +772,7 @@ a:focus-visible {
 
 .search-hotels {
   text-align: center;
-  padding: 96px 0;
+  padding: 96px 304px;
   background-color: #fff;
 }
 
@@ -850,11 +853,11 @@ a:focus-visible {
 
 .inner-subscribe {
   text-align: center;
-  padding: 96px 0 104px 0;
+  padding: 96px 258px 104px 258px;
   background-color: #fff;
 }
 
-.search-hotels__popup-form {
+.popup-form {
   width: 717px;
   margin: 0 auto;
   text-align: left;
@@ -956,16 +959,16 @@ a:focus-visible {
   cursor: default;
 }
 
-.button--secondary:hover, .pagination__link:hover {
+.button--secondary:hover, .pagination__link:hover:not(.pagination__link--nolink) {
   background-color: #68A2CA;
 }
 
-.button--secondary:active, .pagination__link:active {
+.button--secondary:active, .pagination__link:active:not(.pagination__link--nolink) {
   color: rgba(255, 255, 255, 0.3);
   background-color: #82B3D3;
 }
 
-.button--secondary:focus, .pagination__link:focus {
+.button--secondary:focus, .pagination__link:focus:not(.pagination__link--nolink) {
   background-color: #68A2CA;
   outline: none;
 }
@@ -1027,6 +1030,10 @@ a:focus-visible {
   fill: #68A2CA;
 }
 
+.footer__button:active .footer__social-icon {
+  fill: rgba(104, 162, 202, 0.3);
+}
+
 .footer__hotline:hover, .footer__hotline:focus {
   color: #756157;
   outline: none;
@@ -1057,13 +1064,17 @@ a:focus-visible {
   fill: rgba(117, 97, 87, 0.3);
 }
 
-.catalog-products__button:hover, .catalog-products__button:active {
+.catalog-products__button:hover {
   border: 2px solid #000000;
 }
 
 .catalog-products__button:focus {
   border: 2px solid #82B3D3;
   outline: none;
+}
+
+.catalog-products__button:active {
+  border: 2px solid #000000;
 }
 
 .close-icon {
