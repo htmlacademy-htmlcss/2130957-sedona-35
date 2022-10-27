@@ -875,8 +875,9 @@ a:focus-visible {
   cursor: pointer;
 }
 
-.advantages__content {
+.advantages__wrapper, .advantages__item--wrapper {
   padding: 92px 85px;
+  box-sizing: border-box;
 }
 
 .advantages__item--reverse {
