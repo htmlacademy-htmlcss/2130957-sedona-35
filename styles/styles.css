@@ -484,6 +484,8 @@ a:focus-visible {
   outline: none;
   border: none;
   background: transparent;
+  width: 13px;
+  height: 13px;
 }
 
 .inner-header {
