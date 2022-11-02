@@ -175,46 +175,76 @@
           </a>
         </section>
       </footer>
-      <div class="popup-form visually-hidden">
-        <h3 class="popup__title">Поиск гостиницы в Седоне</h3>
-        <div class="close-button">
-          <span class="visually-hidden">Закрыть</span>
-          <svg class="close-icon" width="52" height="52" viewBox="0 0 52 52" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <circle cx="26" cy="26" r="26" />
-            <path d="M33.4905 20.7829L32.1982 19.4906L26.4905 25.1983L20.7828 19.4906L19.4905 20.7829L25.1982 26.4906L19.4905 32.1983L20.7828 33.4906L26.4905 27.7829L32.1982 33.4906L33.4905 32.1983L27.7828 26.4906L33.4905 20.7829Z"/>
-          </svg>
-        </div>
-        <form class="popup-form" action="https://echo.htmlacademy.ru/courses" method="post">
-          <div class="popup__input-number-container">
-            <label for="start-date" class="popup-control">Дата Заезда:</label>
-            <input class="popup__input-number" type="date" id="start-date" name="start-date" value="2020-04-27">
-            <p class="popup-error visually-hidden">Мы не можем отправить вас в прошлое.</p>
-            <p class="popup-allow visually-hidden">На эти даты есть свободные номера. Пока есть.</p>
-          </div>
-          <div class="popup__input-number-container">
-            <label for="end-date" class="popup-control">Дата Выезда:</label>
-            <input class="popup__input-number" type="date" id="end-date" name="end-date" value="2023-09-01">
-            <p class="popup-allow visually-hidden">На эти даты есть свободные номера. Пока есть.</p>
-            <p class="popup-error visually-hidden">Мы не можем отправить вас в прошлое.</p>
-          </div>
-          <div class="popup__input-amount-container">
-            <div class="popup__amount-row">
-              <label for="adult"> Взрослые:</label>
-              <input class="popup__input" type="number" id="adult" name="adult" placeholder="2">
+      <div class="popup popup--hidden">
+        <div class="popup__container ">
+          <h3 class="popup__title">Поиск гостиницы в Седоне</h3>
+          <button type="button" class="close-button">
+            <span class="visually-hidden">Закрыть</span>
+            <svg class="close-icon" width="52" height="52" viewBox="0 0 52 52" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <circle cx="26" cy="26" r="26" />
+              <path d="M33.4905 20.7829L32.1982 19.4906L26.4905 25.1983L20.7828 19.4906L19.4905 20.7829L25.1982 26.4906L19.4905 32.1983L20.7828 33.4906L26.4905 27.7829L32.1982 33.4906L33.4905 32.1983L27.7828 26.4906L33.4905 20.7829Z"/>
+            </svg>
+          </button>
+          <form class="popup__form" action="https://echo.htmlacademy.ru/courses" method="post">
+            <div class="popup__input-number-container">
+              <label for="start-date" class="popup-control">Дата Заезда:</label>
+              <input class="popup__input-number" type="text" id="start-date" name="start-date" placeholder="Укажите дату" value="27 апреля 2020">
+              <p class="popup__error popup-notification-toggle">Мы не можем отправить вас в прошлое.</p>
+              <p class="popup__allow">На эти даты есть свободные номера. Пока есть.</p>
             </div>
-            <div class="popup__amount-row">
-              <label for="children">Дети:
-                <span class="popup-tooltip">
-                    <img class="tooltip-img" src="images/icons/icon_info.svg" width="26" height="26" alt="tooltip">
-                    <span class="tooltip-hidden-text">Укажите количество детей, которые будут с вами, возраст которых от 6 до 18 лет. Дети до 6 лет размещаются бесплатно.
+            <div class="popup__input-number-container">
+              <label for="end-date" class="popup-control">Дата Выезда:</label>
+              <input class="popup__input-number" type="text" id="end-date" name="end-date" placeholder="Укажите дату" value="1 сентября 2023">
+              <p class="popup__allow popup-notification-toggle">На эти даты есть свободные номера. Пока есть.</p>
+              <p class="popup__error">Мы не можем отправить вас в прошлое.</p>
+            </div>
+            <div class="popup__input-amount-container">
+              <div class="popup__amount-row">
+                <label for="adult"> Взрослые:</label>
+                <span class="popup__input-area">
+                  <button class="popup__input-area-button minus" type="button">
+                    <svg class="popup__input-area-icon" width="14" height="2" viewBox="0 0 14 2"  xmlns="http://www.w3.org/2000/svg">
+                      <path d="M0 0L0 2L14 2V0L0 0Z" />
+                    </svg>
+                  </button>
+                  <input class="popup__input" type="number" id="adult" name="adult" placeholder="2" value="2">
+                  <button class="popup__input-area-button plus" type="button">
+                    <svg class="popup__input-area-icon" width="14" height="14" viewBox="0 0 14 14"  xmlns="http://www.w3.org/2000/svg">
+                      <path d="M14 6H8V0H6V6H0V8H6V14H8V8H14V6Z"  />
+                    </svg>
+                  </button>
+                </span>
+              </div>
+              <div class="popup__amount-row">
+                <label for="children">Дети:
+                  <span class="tooltip">
+                    <button class="tooltip__button" type="button">
+                      <svg class="tooltip-img" width="26" height="26" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <circle cx="13" cy="13" r="13" fill=""/>
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M12 7H14V9H12V7ZM14 19H12V10H14V19Z" fill="white"/>
+                      </svg>
+                    </button>
+                      <span class="tooltip__text">Укажите количество детей, которые будут с вами, возраст которых от 6 до 18 лет. Дети до 6 лет размещаются бесплатно.
+                      </span>
                     </span>
-                  </span></label>
-              <input class="popup__input" type="number" id="children" name="children" placeholder="2">
-
+                </label>
+                <span class="popup__input-area">
+                  <button class="popup__input-area-button minus" type="button">
+                    <svg class="popup__input-area-icon" width="14" height="2" viewBox="0 0 14 2"  xmlns="http://www.w3.org/2000/svg"><path d="M0 0L0 2L14 2V0L0 0Z" />
+                    </svg>
+                  </button>
+                  <input class="popup__input" type="number" id="children" name="children" placeholder="2" value="2">
+                  <button class="popup__input-area-button plus" type="button">
+                    <svg class="popup__input-area-icon" width="14" height="14" viewBox="0 0 14 14"  xmlns="http://www.w3.org/2000/svg">
+                      <path d="M14 6H8V0H6V6H0V8H6V14H8V8H14V6Z" />
+                    </svg>
+                  </button>
+                </span>
+              </div>
             </div>
-          </div>
-          <button type="submit" id="popup-submit-button" class="button button--secondary button--popup-submit">Найти</button>
-        </form>
+            <button type="submit" id="popup-submit-button" class="button button--secondary button--popup-submit">Найти</button>
+          </form>
+        </div>
       </div>
 </body>
 </html>
