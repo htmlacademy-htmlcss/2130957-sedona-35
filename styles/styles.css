@@ -650,7 +650,7 @@ a:focus-visible {
   font-size: inherit;
   line-height: inherit;
   color: #333;
-  padding: 14px 20px;
+  padding: 12px 19px;
   border-radius: 4px;
   background-color: #fff;
   border: 2px solid #E5E5E5;
@@ -660,7 +660,7 @@ a:focus-visible {
   appearance: none;
   background-image: url("../images/icons/select_arrow.svg");
   background-repeat: no-repeat;
-  background-position: right 20px center;
+  background-position: right 18px center;
   transition: all .2s ease-in-out;
 }
 
@@ -1057,7 +1057,7 @@ color: rgba(0, 0, 0, 0.6)
 }
 
 .product-card__image {
-  margin-bottom: 16px;
+  margin-bottom: 13px;
   object-fit: cover;
 }
 
