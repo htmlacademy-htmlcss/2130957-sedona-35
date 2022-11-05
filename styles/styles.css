@@ -220,7 +220,7 @@ a:focus-visible {
 
 .button--catalog-filter-submit {
   display: block;
-  margin-bottom: 24px;
+  margin-bottom: 32px;
   width: 191px;
 }
 
@@ -483,14 +483,11 @@ a:focus-visible {
   margin-left: 10px;
 }
 
-.inner-header {
-  padding:35px 70px 70px 70px;
-}
-
 .inner-header__title {
   font-weight: 700;
   font-size: 60px;
   line-height: 78px;
+  margin-bottom: 8px;
 }
 
 .breadcrumbs {
@@ -905,6 +902,7 @@ color: rgba(0, 0, 0, 0.6)
   background-image: url("../images/background/catalog_banner_1200x412.jpg");
   background-size: cover;
   background-position: center center;
+  padding:35px 70px 62px 70px;
 }
 
 .advantages__list--conditions .advantages__item:before {
@@ -959,7 +957,7 @@ color: rgba(0, 0, 0, 0.6)
   background-size: contain;
   width: 8px;
   height: 11px;
-  margin-left: 10px;
+  margin-left: 6px;
   margin-right: 10px;
 }
 .advantages__list {
@@ -1125,7 +1123,7 @@ color: rgba(0, 0, 0, 0.6)
 }
 
 .catalog-filter__group:nth-child(1) {
-  margin-right: 70px;
+  margin-right: 66px;
 }
 
 .catalog-filter__group:nth-child(3) {
@@ -1330,7 +1328,7 @@ color: rgba(0, 0, 0, 0.6)
 }
 
 .catalog-filter__wrapper-inputs {
-  margin-bottom: 36px;
+  margin-bottom: 44px;
   display: flex;
   position: relative;
 }
@@ -1376,7 +1374,7 @@ color: rgba(0, 0, 0, 0.6)
 }
 
 .catalog-filter__range-toggle--toggle-max {
-  left: 186px;
+  left: 207px;
 }
 
 .price-input::-webkit-outer-spin-button,
