@@ -462,6 +462,10 @@ a:focus-visible {
   line-height: 24px;
 }
 
+.popup__form input:disabled {
+  color: rgba(0, 0, 0, 0.3);
+}
+
 .popup__error {
   font-size: 16px;
   line-height: 21px;
@@ -687,6 +691,10 @@ a:focus-visible {
 
 .price-input:active {
   outline: 3px solid #000;
+}
+
+.price-input:disabled {
+  color: rgba(0, 0, 0, 0.3);
 }
 
 .price-input::-webkit-input-placeholder{
