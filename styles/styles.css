@@ -1238,8 +1238,6 @@ a:focus-visible {
   display: grid;
   -ms-grid-columns: 19px 150px 150px 19px;
   grid-template-columns: 19px 150px 150px 19px;
-  -ms-grid-rows: 1fr 16px 21px 16px 36px 16px 37px;
-  grid-template-rows: 1fr 21px 36px 37px;
   row-gap: 16px;
   padding: 19px 0;
 }
