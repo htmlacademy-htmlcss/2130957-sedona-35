@@ -1220,8 +1220,7 @@ a:focus-visible {
 .product-list {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: 1fr 20px 1fr 20px 1fr;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: repeat(auto-fill, 340px);
   gap: 20px;
   margin: 0;
   padding-bottom: 39px;
