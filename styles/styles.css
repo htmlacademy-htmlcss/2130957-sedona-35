@@ -640,6 +640,10 @@ a:focus-visible {
   opacity: 0.3;
 }
 
+.control__input:disabled + .control__mark, .control__input:disabled + .control__mark + .control__label {
+  opacity: 0.3;
+}
+
 .catalog-filter__list--checkbox .control__input[type="checkbox"]:checked + .control__mark::before {
   background-image: url("../images/icons/icon_tick.svg");
   width: 12px;
@@ -648,7 +652,6 @@ a:focus-visible {
   top: 5px;
   left: 4px;
   content: "";
-
 }
 
 .catalog-filter__list--radio .control__input[type="radio"]:checked + .control__mark::before {
