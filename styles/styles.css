@@ -1005,10 +1005,6 @@ a:focus-visible {
   transition: all .2s ease-in-out;
 }
 
-.footer__button svg {
-  vertical-align: middle;
-}
-
 .hero {
   color: #000000;
   background-color: rgba(131, 179, 211, 0.5);
