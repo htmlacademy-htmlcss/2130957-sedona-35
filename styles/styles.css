@@ -336,6 +336,10 @@ a:focus-visible {
   margin: 30px auto 0;
 }
 
+.advantages__list--conditions .advantages__title {
+  margin-bottom: 28px;
+}
+
 .advantages__list--conditions .advantages__title::after {
   width: 0;
   margin: 0;
@@ -1064,7 +1068,7 @@ a:focus-visible {
   display: inline-block;
   width: 75px;
   height: 72px;
-  margin-bottom: 30px;
+  margin-bottom: 28px;
 }
 
 .advantages__item--house:before {
