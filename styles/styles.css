@@ -902,7 +902,7 @@ a:focus-visible {
 
 .pagination__link {
   color: #fff;
-  width: 60px;
+  min-width: 60px;
   display: inline-block;
   border-radius: 4px;
   text-decoration: none;
@@ -911,10 +911,11 @@ a:focus-visible {
   line-height: 20px;
   background-color: #82B3D3;
   text-align: center;
-  padding: 20px 0;
+  padding: 20px 5px;
   -webkit-transition: all .2s ease-in-out;
   -o-transition: all .2s ease-in-out;
   transition: all .2s ease-in-out;
+  box-sizing: border-box;
 }
 
 .pagination__link--current {
