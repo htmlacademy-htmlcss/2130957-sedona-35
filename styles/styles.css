@@ -878,6 +878,7 @@ a:focus-visible {
   -ms-grid-column-align: end;
   justify-self: end;
   cursor: auto;
+  min-height: 37px;
 }
 
 .product-card__button {
