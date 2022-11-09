@@ -812,6 +812,7 @@ a:focus-visible {
   -ms-grid-column: 2;
   -ms-grid-column-span: 2;
   grid-column: 2/4;
+  overflow: hidden;
 }
 
 .product-card__title {
@@ -1366,6 +1367,7 @@ a:focus-visible {
   padding: 92px 85px;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
+  width: 33.333333%;
 }
 
 .advantages__item--wrapper {
@@ -1791,6 +1793,10 @@ a:focus-visible {
 .advantages__picture {
   -o-object-fit: cover;
   object-fit: cover;
-  max-width: 800px;
-  max-height: 384px;
+  display: block;
+}
+
+.advantages__picture-container {
+  overflow: hidden;
+  width: 66.6666%
 }
