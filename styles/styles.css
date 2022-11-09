@@ -858,6 +858,7 @@ a:focus-visible {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  align-items: center;
 }
 
 .product-card__star {
