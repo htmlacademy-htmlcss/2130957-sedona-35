@@ -88,7 +88,6 @@ a:focus-visible {
 .page-header {
   padding: 0 70px;
   background-color: #fff;
-  margin-bottom: -10px;
 }
 
 .navigation {
@@ -135,6 +134,7 @@ a:focus-visible {
   width: 140px;
   margin-right: 28px;
   z-index: 99999;
+  margin-bottom: -10px;
 }
 
 .navigation__link {
@@ -1743,6 +1743,7 @@ a:focus-visible {
   -o-object-fit: cover;
   object-fit: cover;
   display: block;
+  height: 100%;
 }
 
 .advantages__picture-container {
