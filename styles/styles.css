@@ -1743,6 +1743,7 @@ a:focus-visible {
   -o-object-fit: cover;
   object-fit: cover;
   display: block;
+  height: 100%;
 }
 
 .advantages__picture-container {
