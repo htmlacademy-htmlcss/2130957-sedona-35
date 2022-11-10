@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HTML Academy: Седона</title>
     <link rel="stylesheet" href="styles/styles.css">
-    <link type="Image/x-icon" href="images/icons/favicon.svg" rel="icon">
+    <link rel="icon" href="images/icons/favicon_16x16px.png" sizes="16x16">
   </head>
   <body>
       <header class="page-header" data-test="header">
@@ -57,14 +57,16 @@
           </div>
         </section>
         <section class="intro">
-          <h2 class="intro_title">Седона &ndash; небольшой городок в Аризоне, заслуживающий большего!</h2>
+          <h2 class="intro_title">Седона &mdash; небольшой городок в Аризоне, заслуживающий большего!</h2>
           <p class="intro__subtitle">Рассмотрим причины, по которым Седона круче, чем Гранд-Каньон!</p>
         </section>
         <section class="advantages" data-test="advantages">
           <h2 class="visually-hidden">Преимущества</h2>
           <ul class="advantages__list">
             <li class="advantages__item advantages__item--dark advantages__item--large advantages__item--reverse">
-              <img class="advantages__picture" src="images/index/sedona_small_town_800x384.jpg" alt="Настоящий городок Седона" width="800" height="384" loading="lazy">
+              <div class="advantages__picture-container">
+                <img class="advantages__picture" src="images/index/sedona_small_town_800x384.jpg" alt="Настоящий городок Седона" width="800" height="384" loading="lazy">
+              </div>
               <div class="advantages__wrapper">
                 <h3 class="advantages__title">Настоящий городок</h3>
                 <p class="advantages__text">Седона &ndash; не аттракцион для туристов, там течёт своя жизнь</p>
@@ -83,7 +85,9 @@
               <p class="advantages__text">Большинство едет в Гранд Каньон и толпится там</p>
             </li>
             <li class="advantages__item advantages__item--dark advantages__item--large">
-              <img class="advantages__picture" src="images/index/devil_bridge_800x384.jpg" alt="Мост через Гранд-Каньон" width="800" height="384" loading="lazy">
+              <div class="advantages__picture-container">
+                <img class="advantages__picture" src="images/index/devil_bridge_800x384.jpg" alt="Мост через Гранд-Каньон" width="800" height="384" loading="lazy">
+              </div>
               <div class="advantages__wrapper">
                 <h3 class="advantages__title">Там есть <br/>мост дьявола</h3>
                 <p class="advantages__text">Да, по нему можно пройти! Если вы осмелитесь, разумеется</p>
@@ -97,7 +101,7 @@
             </li>
             <li class="advantages__item advantages__item--food">
               <h3 class="advantages__title">Еда</h3>
-              <p class="advantages__text">Всегда заказывайте топовый фирменный бургер, вы не разочаруетесь!</p>
+              <p class="advantages__text">Всегда заказывайте топовый фирменный бургер, вы не разочаруетесь!</p>
             </li>
             <li class="advantages__item advantages__item--souvenir">
               <h3 class="advantages__title">Сувениры</h3>
@@ -109,7 +113,7 @@
           <h2 class="search-hotels__title">Заинтересовались?</h2>
           <p class="search-hotels__description">Укажите предполагаемые даты поездки,
             <br> и мы покажем вам лучшие предложения гостиниц в Седоне</p>
-            <a href="catalog.html" class="button button--primary button--search-hotels">Поиск гостиницы в Седоне</a>
+            <button type="button" class="button button--primary button--search-hotels">Поиск гостиницы в Седоне</button>
         </section>
         <section class="subscribe" data-test="subscribe">
           <h2 class="subscribe__title">Подпишитесь на рассылку</h2>
@@ -145,7 +149,7 @@
         </section>
         <section class="footer__contacts">
           <h2 class="visually-hidden">Контактный номер</h2>
-          <a class="footer__hotline" href="tel:+7(812) 812-12-12">+7(812) 812-12-12</a>
+          <a class="footer__hotline" href="tel:+7(812)812-12-12">+7 (812) 812-12-12</a>
         </section>
         <section class="footer__production">
           <h2 class="visually-hidden">Сделано в html academy</h2>
@@ -218,12 +222,12 @@
               <div class="popup__amount-row">
                 <label for="children">Дети:
                   <span class="tooltip">
-                    <button class="tooltip__button" type="button">
+                    <span class="tooltip__button" >
                       <svg class="tooltip-img" width="26" height="26" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <circle cx="13" cy="13" r="13" fill=""/>
                         <path fill-rule="evenodd" clip-rule="evenodd" d="M12 7H14V9H12V7ZM14 19H12V10H14V19Z" fill="white"/>
                       </svg>
-                    </button>
+                    </span>
                       <span class="tooltip__text">Укажите количество детей, которые будут с вами, возраст которых от 6 до 18 лет. Дети до 6 лет размещаются бесплатно.
                       </span>
                     </span>
@@ -242,9 +246,10 @@
                 </span>
               </div>
             </div>
-            <button type="submit" id="popup-submit-button" class="button button--secondary button--popup-submit">Найти</button>
+            <button type="submit" id="popup-submit-button" class="button button--secondary popup__submit-button">Найти</button>
           </form>
         </div>
       </div>
+      <script src="js/script.js"></script>
 </body>
 </html>
